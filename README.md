@@ -56,7 +56,7 @@ optional arguments:
 
 ```
 
-![Nightcall](../screenshots/nightcall.png?raw=true)
+![Nightcall](screenshots/nightcall.png?raw=true)
 
 ## Tooling
 
@@ -108,11 +108,11 @@ Tooling output will be collected and organized into the following subdirectories
 * **http/images** - *screenshot captures*
 * **brute** - *brute-forcing results if selected*
 
-![Nightcall Output](../screenshots/nightcall_output.png?raw=true)
+![Nightcall Output](screenshots/nightcall_output.png?raw=true)
 
 This approach was preferred over a by-host-subfolder strategy due to the massive number of directories that can be created and ease of grepping. Some minor summarization will be collected from specific files. Smaller engagements may benefit from Metasploit’s db_import of nmap xml, but for larger engagements leveraging a solution such as [Offensive Elk](https://github.com/marco-lancini/docker_offensive_elk), [Moloch](https://github.com/aol/moloch), or [IVRE](https://ivre.rocks/) is recommended. A primary log file in the project directory contains a journal of commands executed and their associated timestamps.
 
-![Nightcall Log](../screenshots/nightcall_log.png?raw=true)
+![Nightcall Log](screenshots/nightcall_log.png?raw=true)
 
 ## Built With
 * **[tqdm](https://pypi.org/project/tqdm/)**
